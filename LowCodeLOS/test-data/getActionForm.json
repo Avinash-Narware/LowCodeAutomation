@@ -1,0 +1,25 @@
+{
+  "Payloads": [
+    {
+	  "TestCase_ID": "GetActionFormTest_001",
+      "formId": "7",
+	  "response": {
+         "status": "SUCCESS",
+		 "message": "Successfully retrieved Form Metadata from the database.",
+		 "desc": "REST API 'getFormMetaData' executed successfully!",
+		 "formId": "7"
+      }
+    },
+	    {
+	  "TestCase_ID": "GetActionFormTest_002",
+      "formId": "8",
+	  "response": {
+         "status": "SUCCESS",
+		 "message": "Successfully retrieved Form Metadata from the database.",
+		 "desc": "REST API 'getFormMetaData' executed successfully!",
+		 "formId": "7"
+      }
+      
+    }
+  ]
+}

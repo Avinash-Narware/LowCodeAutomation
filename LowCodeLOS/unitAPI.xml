@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test" preserve-order="true">
+		<classes>
+		
+		
+	<class  name="in.novopay.cbs.apis.login.LoginTest" />
+	<class name="in.novopay.cbs.apis.createorupdatecorporate.CreateOrUpdateCorporateTest" />
+
+	
+		 
+			<!-- 
+				<class name= "in.novopay.cbs.apis.updateagentstatus.UpdateAgentStatusTest"/>
+				<class name= "in.novopay.cbs.apis.getagentdetails.GetAgentDetailsTest"/>
+			<class name="in.novopay.cbs.apis.createorupdategeneralledger.CreateOrUpdateGeneralLedgerTest" />
+	<class name="in.novopay.cbs.apis.getgeneralledgerdetails.GetGeneralLedgerDetails_Positive" />
+	<class  name="in.novopay.cbs.apis.getgeneralledgerlist.GetGeneralLedgerListTest" />
+	
+			<class	name="in.novopay.cbs.apis.gettaxgrouplist.GetTaxGroupListTest" />
+			
+			<class name="in.novopay.cbs.apis.gettaxcomponentlist.GetTaxComponentListTest" />
+			<class name="in.novopay.cbs.apis.gettaxcomponentdetails.GetTaxComponentDetailsTest" />
+			<class name="in.novopay.cbs.apis.getinternalaccountdefinitionlist.GetInternalAccountDefinitionListTest" />
+			<class name="in.novopay.cbs.apis.getinternalaccountdetails.GetInternalAccountDetailsTest" />
+			 <class  name="in.novopay.cbs.apis.getgeneralledgerlist.GetGeneralLedgerListTest" />
+				
+	 <class  name="in.novopay.cbs.apis.gettransactionlimitdetails.GetTransactionLimitDetailsTest" />
+			 <class  name="in.novopay.cbs.apis.gettransactionlimitlist.GetTransactionLimitTest"/>
+			 <class  name="in.novopay.cbs.apis.createorupdatetransactionlimit.CreateOrUpdateTransactionLimitTest"/>
+				<class name="in.novopay.cbs.apis.createorupdateproductscheme.CreateOrUpdateProductSchemeTest"/>
+			<class name="in.novopay.cbs.apis.createorupdatebaseinterestrate.CreateOrUpdateBaseInterestRateTest"/>
+				<class name="in.novopay.cbs.apis.createorupdateinterestsetup.CreateOrUpdateInterestSetupTest"/>
+		 
+				<class name="in.novopay.cbs.apis.createorupdatepricesetup.CreateOrUpdatePriceSetupTest"/>
+			<class name="in.novopay.cbs.apis.createorupdatepricemaster.CreateOrUpdatePriceMasterTest"/>
+			<class name="in.novopay.cbs.apis.createorupdatetaxgroup.CreateOrUpdateTaxGroupTest"/>
+			<class name="in.novopay.cbs.apis.createorupdatetaxcomponent.CreateOrUpdateTaxComponentTest"/>
+			<class name="in.novopay.cbs.apis.createorupdateinternalaccount.CreateOrUpdateInternalAccountTest"/>
+			<class name="in.novopay.cbs.apis.createorupdateoffice.CreateOrUpdateOfficeTest" /> 	
+			 <class name="in.novopay.cbs.apis.createorupdateinternalaccountdefinition.CreateOrUpdateInternalAccountDefinitionTest" />
+			   <class name= "in.novopay.cbs.apis.getagentdetails.GetAgentDetailsTest"/>
+			  <class name= "in.novopay.cbs.apis.getagentlist.GetAgentListTest"/>
+			 <class name="in.novopay.cbs.apis.createorupdategeneralledger.CreateOrUpdateGeneralLedgerTest" />
+			 <class  name="in.novopay.cbs.apis.getproductschemedetails.GetProductSchemeDetailsTest"/>
+			 <class name= "in.novopay.cbs.apis.getproductschemelist.GetProductSchemeListTest"/>
+			  <class name= "in.novopay.cbs.apis.getagentlist.GetAgentListTest"/>
+			 <class name="in.novopay.cbs.apis.createorupdategeneralledger.CreateOrUpdateGeneralLedgerTest" />
+			  <class name= "in.novopay.cbs.apis.getcorporatelist.GetCorporateListTest"/>
+			   <class name= "in.novopay.cbs.apis.getcorporatedetails.GetCorporateDetailsTest"/>
+			
+			<class name= "in.novopay.cbs.apis.gettransactioncataloguelist.GetTransactionCatalogueListTest"/>
+			<class name= "in.novopay.cbs.apis.createorupdaterole.CreateOrUpdateRoleTest"/>
+			 <class name="in.novopay.cbs.apis.createorupdateinterestsetup.CreateOrUpdateInterestSetupTest"/>
+		
+			<class name="in.novopay.cbs.apis.getbaseinterestratelist.GetBaseInterestRateListTest" />
+		
+			   <class name="in.novopay.cbs.apis.createorupdateinterestsetup.CreateOrUpdateInterestSetup_Positive" />
+			<class name="in.novopay.cbs.apis.getgeneralledgerlist.GetGeneralLedgerListTest" />
+			   <class
+				name="in.novopay.cbs.apis.gettaxcomponentlist.GetTaxComponentList_Positive" />
+			
+			<class name="in.novopay.cbs.apis.createorupdateproductscheme.CreateOrUpdateProductSchemeTest"/> 
+			<class name="in.novopay.cbs.apis.createorupdateproductscheme.CreateOrUpdateProductSchemeTest"/> 
+			
+		<class name="in.novopay.cbs.apis.createorupdateoffice.CreateOrUpdateOffice_Positive" />
+	   <class name="in.novopay.cbs.apis.getofficelist.GetOfficeList_Positive" />
+		<class name="in.novopay.cbs.apis.getofficedetails.GetOfficeDetails_Positive" />
+			
+	 <class name="in.novopay.cbs.apis.createorpdateinternalaccountdefinition.CreateOrUpdateInternalAccountDefinition_Positive" />
+       <class name="in.novopay.cbs.apis.getinternalaccountdefinitiondetails.GetInternalAccountDefinitionDetails_Positive"/>
+        <class name="in.novopay.cbs.apis.getinternalaccountdefinitionlist.GetInternalAccountDefinitionList_Positive" />
+			
+			
+			
+			
+			<class name="in.novopay.cbs.apis.getagentdetails.GetAgentDetailsTest"/> 
+			
+		<class name="in.novopay.cbs.apis.createorupdateagent.CreateOrUpdateAgentTest"/> 
+			<class name="in.novopay.cbs.apis.createorupdatecorporate.CreateOrUpdateCorporateTest" />
+			
+				<class name="in.novopay.cbs.apis.createorupdateoffice.CreateOrUpdateOffice_Positive" />
+	
+			 <class name="in.novopay.cbs.apis.getofficelist.GetOfficeList_Positive" />
+				<class name="in.novopay.cbs.apis.getofficedetails.GetOfficeDetails_Positive" />
+			
+				<class name="in.novopay.cbs.apis.createorupdateoffice.CreateOrUpdateOffice_Positive" />
+		
+
+     
+			
+			
+			 <class name="in.novopay.cbs.apis.createorpdateinternalaccountdefinition.CreateOrUpdateInternalAccountDefinition_Positive" />
+       <class name="in.novopay.cbs.apis.getinternalaccountdefinitiondetails.GetInternalAccountDefinitionDetails_Positive"/>
+        <class name="in.novopay.cbs.apis.getinternalaccountdefinitionlist.GetInternalAccountDefinitionList_Positive" />
+			
+			
+			
+			
+			
+			<class name="in.novopay.cbs.apis.createorupdatecorporate.CreateOrUpdateCorporateTest" />
+			
+			<class name="in.novopay.cbs.apis.createorpdateinternalaccountdefinition.CreateOrUpdateInternalAccountDefinition_Positive" />
+       <class name="in.novopay.cbs.apis.getinternalaccountdefinitiondetails.GetInternalAccountDefinitionDetails_Positive"/>
+        <class name="in.novopay.cbs.apis.getinternalaccountdefinitionlist.GetInternalAccountDefinitionList_Positive" />
+			
+			
+			
+			
+			
+			
+			<class name="in.novopay.cbs.apis.getinternalaccountdefinitiondetails.GetInternalAccountDefinitionDetails_Positive" 
+				/> <class name="in.novopay.cbs.apis.getinternalaccountdefinitionlist.GetInternalAccountDefinitionList_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorpdateinternalaccountdefinition.CreateOrUpdateInternalAccountDefinition_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdateproductscheme.CreateOrUpdateProductSchemeTest"/> 
+				<class name="in.novopay.cbs.apis.login.LoginTest" /> <class name="in.novopay.cbs.apis.login.Login_Positive" 
+				/> <class name="in.novopay.cbs.apis.getagentdetails.GetAgentDetailsTest"/> 
+				<class name="in.novopay.cbs.apis.createorupdatepricesetup.CreateOrUpdatePriceSetup_Positive" 
+				/> <class name="in.novopay.cbs.apis.getpricesetupdetails.GetPriceSetupDetails_Positive" 
+				/> <class name="in.novopay.cbs.apis.getPriceSetupList.GetPriceSetupList_Positive"/> 
+				<class name="in.novopay.cbs.apis.createorupdateagent.CreateOrUpdateAgentTest"/> 
+				<class name="in.novopay.cbs.apis.createOrUpdateTransactionsLimits.createOrUpdateTransactionLimitsTest" 
+				/> <class name="in.novopay.cbs.apis.createorupdatepricemaster.CreateOrUpdatePriceMaster_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdatepricesetup.CreateOrUpdatePriceSetup_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdatetaxcomponent.CreateOrUpdateTaxComponent_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdatetaxgroup.CreateOrUpdateTaxGroup_Positive" 
+				/> <class name="in.novopay.cbs.apis.getpricemasterlist.GetPriceMasterList_Positive" 
+				/> <class name="in.novopay.cbs.apis.getpricemasterdetails.GetPriceMasterDetails_Positive" 
+				/> <class name="in.novopay.cbs.apis.deletepricemaster.DeletePriceMaster_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdatetransactionlimits.CreateOrUpdateTransactionLimits_Positve" 
+				/> <class name="in.novopay.cbs.apis.getPriceSetupList.GetPriceSetupList_Positive" 
+				/> <class name="in.novopay.cbs.apis.getpricesetupdetails.GetPriceSetupDetails_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdateoffice.CreateOrUpdateOffice_Positive" 
+				/> <class name="in.novopay.cbs.apis.login.Login_Maker" /> <class name="in.novopay.cbs.apis.approveapplication.ApproveApplication_Positive" 
+				/> <class name="in.novopay.cbs.apis.rejectapplication.RejectApplication_Positive" 
+				/> <class name="in.novopay.cbs.apis.sendapplicationforclarification.SendApplicationForClarification_Positive" 
+				/> <class name="in.novopay.cbs.apis.gettaxcomponentlist.GetTaxComponentList_Positive" 
+				/> <class name="in.novopay.cbs.apis.gettaxcomponentdetails.GetTaxComponentDetails_Positive" 
+				/> <class name="in.novopay.cbs.apis.deletetaxcomponent.DeleteTaxComponent_Positive" 
+				/> <class name="in.novopay.cbs.apis.gettaxgrouplist.GetTaxGroupList_Positive" 
+				/> <class name="in.novopay.cbs.apis.gettaxgroupdetails.GetTaxGroupDetails_Positive" 
+				/> <class name="in.novopay.cbs.apis.deletetaxgroup.DeleteTaxGroup_Positive" 
+				/> <class name="in.novopay.cbs.apis.getsavingsproductlist.GetSavingsProductList_Positive" 
+				/> <class name="in.novopay.cbs.apis.getsavingsloanproductdetails.GetSavingsLoanProductDetails_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdatesavingsloanproduct.CreateOrUpdateSavingsLoanProduct_Negative" 
+				/> <class name="in.novopay.cbs.apis.createorupdatesavingsloanproduct.CreateOrUpdateSavingsLoanProduct_Positive" 
+				/> <class name="in.novopay.cbs.apis.rejectapplication.RejectApplication_Positive" 
+				/> <class name="in.novopay.cbs.apis.getsavingsproductlist.GetSavingsProductList_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdateinterestsetup.CreateOrUpdateInterestSetup_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdatetaxgroup.CreateOrUpdateTaxGroup_Positive" 
+				/> <class name="in.novopay.cbs.apis.approveapplication.ApproveApplication_Positive"/> 
+				<class name="in.novopay.cbs.apis.createorupdatecorporate.CreateOrUpdateCorporate_Positive" 
+				/> <class name="in.novopay.cbs.apis.login.Login_Maker" /> <class name="in.novopay.cbs.apis.approveapplication.ApproveApplication_Positive"/> 
+				<class name="in.novopay.cbs.apis.createorupdategeneralledger.CreateOrUpdateGeneralLedger_Resubmit" 
+				/> <class name="in.novopay.cbs.apis.getofficelist.GetOfficeList_Positive" 
+				/> <class name="in.novopay.cbs.apis.createorupdatetaxcomponent.CreateOrUpdateTaxComponent_Positive" 
+				/> -->
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+	

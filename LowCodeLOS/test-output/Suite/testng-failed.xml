@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="in.novopay.cbs.apis.saveactionform.SaveActionFormTest">
+        <methods>
+          <include name="saveActionFormTest" invocation-numbers="1"/>
+          <include name="readConfig"/>
+        </methods>
+      </class> <!-- in.novopay.cbs.apis.saveactionform.SaveActionFormTest -->
+      <class name="in.novopay.cbs.apis.getformmetadata.GetFormMetaDataTest">
+        <methods>
+          <include name="readConfig"/>
+        </methods>
+      </class> <!-- in.novopay.cbs.apis.getformmetadata.GetFormMetaDataTest -->
+      <class name="in.novopay.cbs.apis.getactionform.GetActionFormTest">
+        <methods>
+          <include name="readConfig"/>
+        </methods>
+      </class> <!-- in.novopay.cbs.apis.getactionform.GetActionFormTest -->
+      <class name="in.novopay.cbs.apis.saveformmetadata.SaveFormMetaDataTest">
+        <methods>
+          <include name="readConfig"/>
+        </methods>
+      </class> <!-- in.novopay.cbs.apis.saveformmetadata.SaveFormMetaDataTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

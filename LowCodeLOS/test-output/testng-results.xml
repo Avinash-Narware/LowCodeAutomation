@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30" started-at="2020-10-01T09:24:16Z" finished-at="2020-10-01T09:24:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30" started-at="2020-10-01T09:24:16Z" finished-at="2020-10-01T09:24:16Z">
+      <class name="in.novopay.cbs.apis.saveactionform.SaveActionFormTest">
+        <test-method status="PASS" signature="readConfig()[pri:0, instance:in.novopay.cbs.apis.saveactionform.SaveActionFormTest@52a86356]" name="readConfig" is-config="true" duration-ms="32" started-at="2020-10-01T14:54:16Z" finished-at="2020-10-01T14:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method status="FAIL" signature="saveActionFormTest(java.util.HashMap)[pri:0, instance:in.novopay.cbs.apis.saveactionform.SaveActionFormTest@52a86356]" name="saveActionFormTest" duration-ms="0" started-at="2020-10-01T14:54:16Z" data-provider="getTestData" finished-at="2020-10-01T14:54:16Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unexpected token COLON(:) at position 208.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unexpected token COLON(:) at position 208.
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: Unexpected token COLON(:) at position 208.
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:257)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:92)
+	at in.novopay.cbs.utils.JsonLib.readFileJson(JsonLib.java:22)
+	at in.novopay.cbs.utils.JsonLib.getValues(JsonLib.java:31)
+	at in.novopay.cbs.apis.saveactionform.SaveActionFormTest.getTestData(SaveActionFormTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveActionFormTest -->
+      </class> <!-- in.novopay.cbs.apis.saveactionform.SaveActionFormTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

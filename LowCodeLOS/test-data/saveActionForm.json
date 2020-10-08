@@ -1,0 +1,109 @@
+{
+  "Payloads": [
+    {
+	  "TestCase_ID":"ActionFormTest_001",
+      "request": {
+        "formId": "form_1",
+        "formTitle": "Action Form",
+        "formAction": "",
+        "values": {
+          "tab_1": {
+            "field_18": "",
+            "field_14": "",
+            "field_3": "",
+            "group_1": {
+              "field_10": [],
+              "field_18": "",
+              "field_15": "",
+              "field_16": "",
+              "field_17": ""
+            },
+            "section_1": {
+              "field_11111": "",
+              "field_21212": "",
+              "field_3": "",
+              "field_4": "",
+              "field_5": ""
+            }
+          },
+          "tab_2": {
+            "section_12": {
+              "field_12": "",
+              "field_22": "",
+              "field_32": "",
+              "group_1": {
+                "field_1345": "",
+                "field_183": ""
+              }
+            },
+            "section_22": {
+              "field_122": "",
+              "field_222": "",
+              "field_322": ""
+            }
+          }
+        }
+      },
+      "response": {
+        "status": "SUCCESS",
+        "message": "Successfully saved Action Form to database.",
+        "desc": "REST API 'saveActionForm' executed successfully!",
+        "formId": "3",
+        "actionForm": null
+      }
+    },
+	
+	{
+	  "TestCase_ID":"ActionFormTest_002",
+      "request": {
+        "formId": "form_2",
+        "formTitle": "Loan Form",
+        "formAction": "",
+        "values": {
+          "tab_1": {
+            "field_18": "",
+            "field_14": "",
+            "field_3": "",
+            "group_1": {
+              "field_10": [],
+              "field_18": "",
+              "field_15": "",
+              "field_16": "",
+              "field_17": ""
+            },
+            "section_1": {
+              "field_11111": "",
+              "field_21212": "",
+              "field_3": "",
+              "field_4": "",
+              "field_5": ""
+            }
+          },
+          "tab_2": {
+            "section_12": {
+              "field_12": "",
+              "field_22": "",
+              "field_32": "",
+              "group_1": {
+                "field_1345": "",
+                "field_183": ""
+              }
+            },
+            "section_22": {
+              "field_122": "",
+              "field_222": "",
+              "field_322": ""
+            }
+          }
+        }
+      },
+      "response": {
+        "status": "FAILED",
+        "message": "Successfully saved Action Form to database.",
+        "desc": "REST API 'saveActionForm' executed successfully!",
+        "formId": "3",
+        "actionForm": null
+      }
+    }
+  ]
+}
